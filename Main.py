@@ -27,7 +27,7 @@ num_images_train = 28099
 num_images_test = 7025
 input_size = train_np[0][0].shape[0] * train_np[0][0].shape[1] * train_np[0][0].shape[2]
 output_size = 5
-hidden_size = 100
+hidden_size = 500
 
 
 ##process data
