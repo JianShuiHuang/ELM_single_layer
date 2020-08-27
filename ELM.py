@@ -24,7 +24,7 @@ class ELM(object):
         self.hiddenSize = hiddenSize       
         
         # Initialize random weight with range [-0.5, 0.5]
-        self.weight = np.matrix(np.random.uniform(-1, 1, (self.hiddenSize, self.inputSize)))
+        self.weight = np.matrix(np.random.uniform(-0.5, 0.5, (self.hiddenSize, self.inputSize)))
 
         # Initialize random bias with range [0, 1]
         self.bias = np.matrix(np.random.uniform(0, 1, (1, self.hiddenSize)))
