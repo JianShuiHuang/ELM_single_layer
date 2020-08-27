@@ -31,7 +31,7 @@ hidden_size = 1000
 
 
 ##process data
-"""
+
 train_data = np.zeros((num_images_train, input_size))
 train_label = np.zeros(num_images_train)
 for i in range(num_images_train):
@@ -54,13 +54,13 @@ for i in range(num_images_test):
 
 np.save("Retinopathy_test_data.npy", test_data)
 np.save("Retinopathy_test_label.npy", test_label)
-"""
 
+"""
 train_data = np.load("Retinopathy_train_data.npy")
 train_label = np.load("Retinopathy_train_label.npy")
 test_data = np.load("Retinopathy_test_data.npy")
 test_label = np.load("Retinopathy_test_label.npy")
-
+"""
 print("data load complet...")
 
 ##create ELM model
